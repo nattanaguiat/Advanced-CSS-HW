@@ -31,6 +31,8 @@ h6 {
 
 p {
   margin: 0;
+  display: flex;
+  flex-direction: row;
 }
 
 header {
@@ -54,7 +56,7 @@ header h1 {
 }
 
 nav {
-  display: flexbox;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -86,10 +88,9 @@ main {
   margin-bottom: 45px;
 }
 
-/*Falta el URL*/
 .hero-banner {
   background: rgb(68, 88, 120);
-  background-image: url, linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -172,6 +173,22 @@ main {
   transition: all 0.5s;
   font-size: 0.9rem;
 }
+
+.project1 { 
+  background-image: url(https://t9s9z3m3.rocketcdn.me/wp-content/uploads/2024/03/Two-Surfers-On-A-Beach.jpg);
+  }
+.project2 { 
+    background-image: url(https://5.imimg.com/data5/SELLER/Default/2021/7/OT/OU/XJ/132670789/p6-indoor-led-video-display-wall-1000x1000.jpeg);
+  }
+.project3 { 
+    background-image: url(https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2015/02/thumb_720_450_1411_f.jpg);
+  }
+.project4 { 
+    background-image: url(https://img.freepik.com/premium-photo/colorful-pastel-puzzle-background-created-using-generative-ai-tools_543222-2942.jpg);
+  }
+.project5 { 
+    background-image: url(https://www.shutterstock.com/image-photo/close-runner-shoes-ready-start-260nw-607493777.jpg);
+  }
 
 /* feature first portfolio item */
 .flex-item:first-child {
