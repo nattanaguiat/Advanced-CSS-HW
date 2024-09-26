@@ -104,6 +104,10 @@ main {
   text-align: right;
 }
 
+.box-title {
+  background-color: var(--secondary);
+}
+
 .hero-banner div {
   flex: 0 0 90%;
 }
