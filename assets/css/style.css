@@ -179,21 +179,6 @@ main {
   font-size: 0.9rem;
 }
 
-.project1 { 
-  background-image: url(https://t9s9z3m3.rocketcdn.me/wp-content/uploads/2024/03/Two-Surfers-On-A-Beach.jpg);
-  }
-.project2 { 
-    background-image: url(https://5.imimg.com/data5/SELLER/Default/2021/7/OT/OU/XJ/132670789/p6-indoor-led-video-display-wall-1000x1000.jpeg);
-  }
-.project3 { 
-    background-image: url(https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2015/02/thumb_720_450_1411_f.jpg);
-  }
-.project4 { 
-    background-image: url(https://img.freepik.com/premium-photo/colorful-pastel-puzzle-background-created-using-generative-ai-tools_543222-2942.jpg);
-  }
-.project5 { 
-    background-image: url(https://www.shutterstock.com/image-photo/close-runner-shoes-ready-start-260nw-607493777.jpg);
-  }
 
 /* feature first portfolio item */
 .flex-item:first-child {
@@ -245,23 +230,30 @@ main {
 /* portfolio project images */
 /* TODO: Add portfolio project images here using background images*/
 .run-buddy {
-  
+  background-image: url(https://www.shutterstock.com/image-photo/close-runner-shoes-ready-start-260nw-607493777.jpg);
 }
 
 .led-wall {
-  
+  background-image: url(https://5.imimg.com/data5/SELLER/Default/2021/7/OT/OU/XJ/132670789/p6-indoor-led-video-display-wall-1000x1000.jpeg)
 }
 
 .react-calc {
-  
+  background-image: url(https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2015/02/thumb_720_450_1411_f.jpg)
 }
 
 .pastel-puzzles {
-  
+  background-image: url(https://img.freepik.com/premium-photo/colorful-pastel-puzzle-background-created-using-generative-ai-tools_543222-2942.jpg);
 }
 
 .surf-report {
-  
+  background-image: url(https://t9s9z3m3.rocketcdn.me/wp-content/uploads/2024/03/Two-Surfers-On-A-Beach.jpg);
+}
+
+@media screen and (max-width: 768px) {
+  .flex-item:first-child {
+    min-height: 150px;
+    
+  }
 }
 
 /* media queries */
